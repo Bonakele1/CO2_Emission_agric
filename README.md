@@ -1,13 +1,13 @@
 # CO2 Emission agric
-Total Emission Analysis and Modeling Project
+## Total Emission Analysis and Modeling Project
 
-1. Project Overview
+### 1. Project Overview
 This project focuses on analyzing and modeling Total CO₂ Emissions, a measure of carbon dioxide emissions influenced by various human activities, natural processes, and environmental factors. By examining the predictors and their relationships with CO₂ emissions, the analysis aims to identify the primary contributors and provide insights into the dynamics driving environmental changes. Statistical methods and machine learning models are utilized to achieve these objectives.
 
-2. Dataset
+### 2. Dataset
 The dataset contains various predictors that contribute to or are associated with Total Emission levels. It provides comprehensive data on activities related to agriculture, industry, energy, and population demographics across years.
 
-    Predictors (Features)
+#### Predictors (Features)
     Feature Name	Description
     Year-  Year of the recorded emissions, used to capture trends over time.
     Savanna_fires - Emissions from fires in savanna regions.
@@ -40,30 +40,30 @@ The dataset contains various predictors that contribute to or are associated wit
     Total_Population__Female - Female population size, influencing demographic-driven emissions.
     Average_Temperature_C - Average temperature, impacting natural processes such as soil respiration.
 
-    Target Variable
+#### Target Variable
     Total_Emission: CO2 is recorded in kilotonnes (kt): 1 kt represents 1000 kg of CO2. This is the response variable representing the total greenhouse gas emissions measured in a given period. It serves as the primary metric to analyze how different predictors impact emission levels. The variable is a summation of emissions across diverse sectors and activities, including agriculture, energy use, and population factors. Understanding total emissions is critical for policy-making and targeted interventions to mitigate climate change.
 
-3. Tools and Packages Used
+### 3. Tools and Packages Used
 pandas: For data manipulation and preprocessing.
 numpy: For numerical computations.
 matplotlib: For visualizations.
 seaborn: For enhanced data visualization.
 statsmodels: For statistical modeling and analysis.
 
-4. Environments
+### 4. Environments
 Create a Virtual Environment: 
 
 python -m venv env
 
 Activate the Environment:
 
-# activate the virtual environment
-conda activate <env>
-# install the pip package
-conda install pip
-# install the requirements for this project
-pip install -r requirements.txt
+activate the virtual environment
+ conda activate <env>
+install the pip package
+ conda install pip
+install the requirements for this project
+ pip install -r requirements.txt
 
-5. Team members
+### 5. Team members
 Name               Email
 Bonakele Mdletshe  Bonasiwe@gmail.com
