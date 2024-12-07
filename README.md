@@ -53,9 +53,11 @@ statsmodels: For statistical modeling and analysis.
 ### 4. Environments
 
 Create a Virtual Environment: 
+
     python -m venv env
 
 Activate the Environment:
+
     activate the virtual environment
     conda activate <env>
 
