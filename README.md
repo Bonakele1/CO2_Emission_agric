@@ -68,5 +68,5 @@ Activate the Environment:
     pip install -r requirements.txt
 
 ### 5. Team members
-Name               Email
+
 Bonakele Mdletshe  Bonasiwe@gmail.com
