@@ -1,4 +1,4 @@
-# CO2_Emission_agric
+# CO2 Emission agric
 Total Emission Analysis and Modeling Project
 
 1. Project Overview
