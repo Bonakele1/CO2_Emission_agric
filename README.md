@@ -69,4 +69,5 @@ Activate the Environment:
 
 ### 5. Team members
 
-Bonakele Mdletshe  Bonasiwe@gmail.com
+Bonakele Mdletshe   Bonasiwe@gmail.com
+Lindelwe Mathonsi   lindelwemathonsi@gmail.com
