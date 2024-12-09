@@ -2,7 +2,7 @@
 ## Total Emission Analysis and Modeling Project
 
 ### 1. Project Overview
-This project focuses on analyzing and modeling Total CO₂ Emissions, a measure of carbon dioxide emissions influenced by various human activities, natural processes, and environmental factors. By examining the predictors and their relationships with CO₂ emissions, the analysis aims to identify the primary contributors and provide insights into the dynamics driving environmental changes. Statistical methods and machine learning models are utilized to achieve these objectives.
+This project focuses on analyzing and modeling Average temperature, a measure of carbon dioxide emissions influenced by various human activities, natural processes, and environmental factors. By examining the predictors and their relationships with CO₂ emissions, the analysis aims to identify the primary contributors and provide insights into the dynamics driving environmental changes. Statistical methods and machine learning models are utilized to achieve these objectives.
 
 ### 2. Dataset
 The dataset contains various predictors that contribute to or are associated with Total Emission levels. It provides comprehensive data on activities related to agriculture, industry, energy, and population demographics across years.
@@ -38,10 +38,11 @@ Feature Name	Description
  Urban_population - Size of the urban population, linked to industrial and residential emissions.
  Total_Population__Male - Male population size, influencing demographic-driven emissions.
  Total_Population__Female - Female population size, influencing demographic-driven emissions.
+ Total_Emission - representing the total greenhouse gas emissions measured in a given period
  Average_Temperature_C - Average temperature, impacting natural processes such as soil respiration.
 
 #### Target Variable
-Total_Emission: CO2 is recorded in kilotonnes (kt): 1 kt represents 1000 kg of CO2. This is the response variable representing the total greenhouse gas emissions measured in a given period. It serves as the primary metric to analyze how different predictors impact emission levels. The variable is a summation of emissions across diverse sectors and activities, including agriculture, energy use, and population factors. Understanding total emissions is critical for policy-making and targeted interventions to mitigate climate change.
+ Average_Temperature_C - Average temperature, impacting natural processes such as soil respiration. is used measure co2 emission.
 
 ### 3. Tools and Packages Used
 pandas: For data manipulation and preprocessing.
